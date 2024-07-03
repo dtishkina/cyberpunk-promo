@@ -1,0 +1,78 @@
+@import 'reset.css';
+@import 'header.css';
+
+html {
+    font-size: 20px;
+}
+
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('assets/fonts/Archangelsk.eot');
+	src: local('Archangelsk'),
+		url('assets/fonts/Archangelsk.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Archangelsk.woff') format('woff'),
+		url('assets/fonts/Archangelsk.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
+    --contrast-color: #F8F200;
+    --span-color: #52BEDC;
+
+    --heading-font-size: 3.1rem;
+    --caption-font-size: 1.2rem;
+    --body-font-size: 0.9rem;
+    --footer-font-size: 0.6rem;
+}
+
+body {
+    font-family: Archangelsk, sans-serif;
+    font-size: var(--body-font-size);
+    line-height: 34px;
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    line-height: 63px;
+}
+
+h2 {
+    font-size: var(--caption-font-size);
+    line-height: 28px;
+}
+
+.span {
+    color: var(--span-color);
+}
+
+.wrapper{
+    max-width: 1280px;
+    padding: 0 36px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 0.8rem;
+        line-height: 32px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 31px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        line-height:23px;
+    }
+
+    .wrapper {
+        padding: 0 12px;
+    }
+}
