@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center;
   opacity: 0;
-  animation: fadeAnimation 5s infinite;
+  animation: fadeAnimation 10s infinite;
 }
 
 .slide1 {
@@ -29,12 +29,12 @@
 
 .slide2 {
     background-image: url('/assets/images/cover-2.jpg');
-    animation-delay: 3s;
+    animation-delay: 9s;
 }
 
 .slide3 {
     background-image: url('/assets/images/cover-3.jpg');
-    animation-delay: 6s;
+    animation-delay: 9s;
 }
 
 @keyframes fadeAnimation {
@@ -81,12 +81,12 @@
 
     .slide2 {
         background-image: url('/assets/images/cover-tablet-2.png');
-        animation-delay: 3s;
+        animation-delay: 9s;
     }
 
     .slide3 {
         background-image: url('/assets/images/cover-tablet-3.png');
-        animation-delay: 6s;
+        animation-delay: 18s;
     }
 }
 
