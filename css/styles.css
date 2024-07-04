@@ -27,6 +27,8 @@ html {
     --caption-font-size: 1.2rem;
     --body-font-size: 0.9rem;
     --footer-font-size: 0.6rem;
+
+    --clip-path-form: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
 }
 
 body {
