@@ -1,5 +1,6 @@
 @import 'reset.css';
 @import 'header.css';
+@import 'hero.css';
 
 html {
     font-size: 20px;
