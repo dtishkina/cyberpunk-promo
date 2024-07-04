@@ -32,9 +32,14 @@ html {
 }
 
 body {
-    font-family: Archangelsk, sans-serif;
+    font-family: "Roboto Light", sans-serif;
     font-size: var(--body-font-size);
     line-height: 34px;
+}
+
+h1,
+h2 {
+    font-family: Archangelsk, sans-serif;
 }
 
 h1 {
