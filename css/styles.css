@@ -76,7 +76,7 @@ button{
     flex-direction: column;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 700px) {
     body {
         font-size: 0.8rem;
         line-height: 32px;
@@ -93,6 +93,6 @@ button{
     }
 
     .wrapper {
-        padding: 0 12px;
+        padding: 0 0;
     }
 }
