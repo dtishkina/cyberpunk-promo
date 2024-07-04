@@ -52,6 +52,18 @@ h2 {
     line-height: 28px;
 }
 
+button{
+    padding: 19px 50px;
+}
+
+.primary-button{
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
 .span {
     color: var(--span-color);
 }
