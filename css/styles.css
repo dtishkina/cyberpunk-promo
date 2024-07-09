@@ -2,6 +2,7 @@
 @import 'header.css';
 @import 'hero.css';
 @import 'about.css';
+@import 'lottery.css';
 
 html {
     font-size: 20px;
@@ -64,6 +65,13 @@ button{
     line-height: 40px;
 }
 
+.secondary-button {
+    background-color: var(--contrast-color);
+    color: var(--secondary-color);
+    font-size: var(--body-font-size);
+    font-weight: 700;
+    line-height: 21px;
+}
 
 .span {
     color: var(--span-color);
@@ -73,8 +81,6 @@ button{
     max-width: 1280px;
     padding: 0 36px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 @media (max-width: 700px) {
@@ -95,5 +101,11 @@ button{
 
     .wrapper {
         padding: 0 0;
+    }
+
+    .secondary-button {
+        font-size: 0.8rem;
+        line-height: 19px;
+        padding: 20px 50px;
     }
 }
