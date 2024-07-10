@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loadSection('sections/lottery.html', 'lottery');
     loadSection('sections/hp.html', 'hp');
     loadSection('sections/buy.html', 'buy');
+    loadSection('sections/footer.html', 'footer');
 });
