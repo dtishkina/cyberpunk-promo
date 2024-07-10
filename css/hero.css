@@ -23,17 +23,17 @@
 }
 
 .slide1 {
-    background-image: url('/assets/images/cover-1.jpg');
+    background-image: url('cyberpunk-promo/assets/images/cover-1.jpg');
     animation-delay: 0s;
 }
 
 .slide2 {
-    background-image: url('/assets/images/cover-2.jpg');
+    background-image: url('cyberpunk-promo/assets/images/cover-2.jpg');
     animation-delay: 9s;
 }
 
 .slide3 {
-    background-image: url('/assets/images/cover-3.jpg');
+    background-image: url('cyberpunk-promo/assets/images/cover-3.jpg');
     animation-delay: 9s;
 }
 
@@ -75,17 +75,17 @@
 
 @media (max-width: 1024px) {
     .slide1 {
-        background-image: url('/assets/images/cover-tablet-1.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-tablet-1.png');
         animation-delay: 0s;
     }
 
     .slide2 {
-        background-image: url('/assets/images/cover-tablet-2.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-tablet-2.png');
         animation-delay: 9s;
     }
 
     .slide3 {
-        background-image: url('/assets/images/cover-tablet-3.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-tablet-3.png');
         animation-delay: 18s;
     }
 }
@@ -105,17 +105,17 @@
 
 @media (max-width: 400px) {
     .slide1 {
-        background-image: url('/assets/images/cover-mobile-1.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-mobile-1.png');
         animation-delay: 0s;
     }
 
     .slide2 {
-        background-image: url('/assets/images/cover-mobile-2.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-mobile-2.png');
         animation-delay: 3s;
     }
 
     .slide3 {
-        background-image: url('/assets/images/cover-mobile-3.png');
+        background-image: url('cyberpunk-promo/assets/images/cover-mobile-3.png');
         animation-delay: 6s;
     }
 

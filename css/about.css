@@ -34,17 +34,17 @@
 
 .image1 {
     clip-path: var(--clip-path-form);
-    background-image: url("/assets/images/Rectangle 597.jpg");
+    background-image: url("cyberpunk-promo/assets/images/Rectangle 597.jpg");
 }
 
 .image2 {
     clip-path: var(--clip-path-form);
-    background-image: url("/assets/images/Rectangle 598.jpg");
+    background-image: url("cyberpunk-promo/assets/images/Rectangle 598.jpg");
 }
 
 .image3 {
     clip-path: var(--clip-path-form);
-    background-image: url("/assets/images/Rectangle 599.jpg");
+    background-image: url("cyberpunk-promo/assets/images/Rectangle 599.jpg");
 }
 
 

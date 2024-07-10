@@ -4,7 +4,7 @@
 }
 
 .lottery__roof {
-    background-image: url("/assets/images/22 1.png");
+    background-image: url("cyberpunk-promo/assets/images/22 1.png");
 }
 
 .lottery__title {
@@ -26,7 +26,7 @@
 }
 
 .content__images {
-    background-image: url("/assets/images/Layer 5.png"), url("/assets/images/Layer 6.png");
+    background-image: url("cyberpunk-promo/assets/images/Layer 5.png"), url("cyberpunk-promo/assets/images/Layer 6.png");
     background-repeat: no-repeat;
     background-size: contain, contain;
     background-position: left, right;
@@ -89,7 +89,7 @@ form {
 }
 
 .checkbox-input:checked+label::before {
-    background-image: url("/assets/icons/checkbox-checked.svg");
+    background-image: url("cyberpunk-promo/assets/icons/checkbox-checked.svg");
 }
 
 .input {
