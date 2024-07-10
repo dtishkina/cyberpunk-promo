@@ -84,6 +84,34 @@ button{
     margin: 0 auto;
 }
 
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__container,
+.section__roof {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.section__container {
+    position: relative;
+    padding: 70px 0;
+    z-index: 0;
+}
+
+.section__roof {
+    position: absolute;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
 @media (max-width: 700px) {
     body {
         font-size: 0.8rem;
