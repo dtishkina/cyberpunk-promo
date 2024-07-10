@@ -40,6 +40,11 @@
 
 .hp__list li {
     margin-bottom: 15px;
+    display: flex;
+}
+
+.hp__list {
+    flex-wrap: wrap;
 }
 
 .hp-button {
