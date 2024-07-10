@@ -1,0 +1,166 @@
+.lottery__container {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+
+.lottery__roof {
+    background-image: url("/assets/images/22 1.png");
+}
+
+.lottery__title {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 15px;
+}
+
+.lottery__description {
+    width: 80%;
+    margin: 25px 0;
+}
+
+.lottery__content,
+.content__images {
+    display: flex;
+    gap: 32px;
+}
+
+.content__images {
+    background-image: url("/assets/images/Layer 5.png"), url("/assets/images/Layer 6.png");
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    background-position: left, right;
+    width: 788px;
+    padding-left: 164px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 460px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+}
+
+.input,
+.form-label {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: var(--body-font-size);
+}
+
+.label {
+    color: var(--primary-color);
+    font-size: var(--footer-font-size);
+    line-height: 14px;
+    margin-top: -17px;
+}
+
+.checkbox-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-input+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.checkbox-input+label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #777777;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.checkbox-input:checked+label::before {
+    background-image: url("/assets/icons/checkbox-checked.svg");
+}
+
+.input {
+    border-bottom: 1px #777777 solid;
+    padding-bottom: 13px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    padding: 39px;
+    border: 1px #777777 dashed;
+    text-align: center;
+    line-height: 21px;
+}
+
+.form-label__images {
+    font-size: var(--footer-font-size);
+}
+
+@media (max-width: 1200px) {
+    .lottery__title {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    .lottery__description {
+        width: 50%;
+    }
+
+    .content__images {
+        flex-direction: column;
+        background-position: top, bottom;
+        width: 50%;
+        justify-content: space-around;
+        margin-top: -400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .lottery__title,
+    .lottery__description,
+    .lottery__content{
+        padding: 0 24px;
+        width: 100%;
+    }
+
+    form {
+       width: 100%;
+    }
+
+    .title__image {
+        width: 62px;
+    }
+
+    .lottery__content {
+        flex-direction: column-reverse;
+    }
+
+    .content__images {
+        width: 100%;
+        flex-direction: row;
+        background-position: left, right;
+        margin-top: unset;
+        padding-left: unset;
+        justify-content: space-between;
+    }
+
+    .content-image {
+        width: 44%;
+    }
+}

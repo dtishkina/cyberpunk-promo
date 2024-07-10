@@ -1,0 +1,129 @@
+.hero{
+  display: flex;
+}
+
+.hero__slider{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fadeAnimation 10s infinite;
+}
+
+.slide1 {
+    background-image: url('/assets/images/cover-1.jpg');
+    animation-delay: 0s;
+}
+
+.slide2 {
+    background-image: url('/assets/images/cover-2.jpg');
+    animation-delay: 9s;
+}
+
+.slide3 {
+    background-image: url('/assets/images/cover-3.jpg');
+    animation-delay: 9s;
+}
+
+@keyframes fadeAnimation {
+    0%, 100% {
+        opacity: 0;
+    }
+    10%, 90% {
+        opacity: 0.8;
+    }
+    20%, 80% {
+        opacity: 0.9;
+    }
+    40%, 70% {
+        opacity: 1;
+    }
+}
+
+.container {
+    clip-path: var(--clip-path-form);
+    background-color: var(--contrast-color);
+    width: 624px;
+    height: 369px;
+    padding: 70px;
+}
+
+.hero__content {
+    display: flex;
+    width: 1280px;
+    height: 902px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.container__title{
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 1024px) {
+    .slide1 {
+        background-image: url('/assets/images/cover-tablet-1.png');
+        animation-delay: 0s;
+    }
+
+    .slide2 {
+        background-image: url('/assets/images/cover-tablet-2.png');
+        animation-delay: 9s;
+    }
+
+    .slide3 {
+        background-image: url('/assets/images/cover-tablet-3.png');
+        animation-delay: 18s;
+    }
+}
+
+@media (max-width: 700px) {
+    .container{
+        width: 100%;
+        height: 207px;
+        padding: 36px;
+    }
+
+    .hero__content {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .slide1 {
+        background-image: url('/assets/images/cover-mobile-1.png');
+        animation-delay: 0s;
+    }
+
+    .slide2 {
+        background-image: url('/assets/images/cover-mobile-2.png');
+        animation-delay: 3s;
+    }
+
+    .slide3 {
+        background-image: url('/assets/images/cover-mobile-3.png');
+        animation-delay: 6s;
+    }
+
+    .container{
+        padding: 30px 12px;
+    }
+
+    .hero__content {
+        height: 920px;
+    }
+}

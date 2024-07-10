@@ -1,0 +1,142 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'hero.css';
+@import 'about.css';
+@import 'lottery.css';
+@import 'hp.css';
+@import 'buy.css';
+@import 'footer.css';
+
+html {
+    font-size: 20px;
+}
+
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('assets/fonts/Archangelsk.eot');
+	src: local('Archangelsk'),
+		url('assets/fonts/Archangelsk.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Archangelsk.woff') format('woff'),
+		url('assets/fonts/Archangelsk.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
+    --contrast-color: #F8F200;
+    --span-color: #52BEDC;
+
+    --heading-font-size: 3.1rem;
+    --caption-font-size: 1.2rem;
+    --body-font-size: 0.9rem;
+    --footer-font-size: 0.6rem;
+
+    --clip-path-form: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+    font-size: var(--body-font-size);
+    line-height: 34px;
+}
+
+h1,
+h2 {
+    font-family: Archangelsk, sans-serif;
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    line-height: 63px;
+}
+
+h2 {
+    font-size: var(--caption-font-size);
+    line-height: 28px;
+}
+
+button{
+    padding: 19px 50px;
+}
+
+.primary-button{
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.secondary-button {
+    background-color: var(--contrast-color);
+    color: var(--secondary-color);
+    font-size: var(--body-font-size);
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.span {
+    color: var(--span-color);
+}
+
+.wrapper{
+    max-width: 1280px;
+    padding: 0 36px;
+    margin: 0 auto;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__container,
+.section__roof {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.section__container {
+    position: relative;
+    padding: 70px 0;
+    z-index: 0;
+}
+
+.section__roof {
+    position: absolute;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 0.8rem;
+        line-height: 32px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 31px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        line-height:23px;
+    }
+
+    .wrapper {
+        padding: 0 0;
+    }
+
+    .secondary-button {
+        font-size: 0.8rem;
+        line-height: 19px;
+        padding: 20px 50px;
+    }
+}
