@@ -13,9 +13,9 @@ html {
 
 @font-face {
 	font-family: 'Archangelsk';
-	src: url('assets/fonts/Archangelsk.eot');
+	src: url('/cyberpunk-promo/assets/fonts/Archangelsk.eot');
 	src: local('Archangelsk'),
-		url('assets/fonts/Archangelsk.eot?#iefix') format('embedded-opentype'),
+		url('/cyberpunk-promo/assets/fonts/Archangelsk.eot?#iefix') format('embedded-opentype'),
 		url('/cyberpunk-promo/assets/fonts/Archangelsk.woff') format('woff'),
 		url('/cyberpunk-promo/assets/fonts/Archangelsk.ttf') format('truetype');
 	font-weight: 400;
