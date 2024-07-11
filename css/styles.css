@@ -16,8 +16,8 @@ html {
 	src: url('assets/fonts/Archangelsk.eot');
 	src: local('Archangelsk'),
 		url('assets/fonts/Archangelsk.eot?#iefix') format('embedded-opentype'),
-		url('assets/fonts/Archangelsk.woff') format('woff'),
-		url('assets/fonts/Archangelsk.ttf') format('truetype');
+		url('/cyberpunk-promo/assets/fonts/Archangelsk.woff') format('woff'),
+		url('/cyberpunk-promo/assets/fonts/Archangelsk.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
